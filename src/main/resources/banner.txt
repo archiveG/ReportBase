@@ -1,0 +1,11 @@
+${AnsiColor.BLUE}  ____                       _  ${AnsiColor.YELLOW} ____
+${AnsiColor.BLUE} |  _ \ ___ _ __   ___  _ __| |_${AnsiColor.YELLOW}| __ )  __ _ ___  ___
+${AnsiColor.BLUE} | |_) / _ \ '_ \ / _ \| '__| __${AnsiColor.YELLOW}|  _ \ / _` / __|/ _ \
+${AnsiColor.BLUE} |  _ <  __/ |_) | (_) | |  | |_${AnsiColor.YELLOW}| |_) | (_| \__ \  __/
+${AnsiColor.BLUE} |_| \_\___| .__/ \___/|_|   \__${AnsiColor.YELLOW}|____/ \__,_|___/\___|
+${AnsiColor.BLUE}           |_|
+${AnsiColor.DEFAULT}
+
+ Name        : ${AnsiColor.CYAN}${info.app.name}${AnsiColor.DEFAULT}
+ Version     : ${AnsiColor.CYAN}${info.build.version}${AnsiColor.DEFAULT}
+ Description : ${AnsiColor.CYAN}${info.app.description}${AnsiColor.DEFAULT}

@@ -1,0 +1,120 @@
+body {
+    font-size: 16px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@page {
+    size: A4 portrait;
+
+    margin-top: 3cm;
+    margin-right: 2cm;
+    margin-left: 2cm;
+    margin-bottom: 2.5cm;
+
+    @top-right {
+        content: element(header-logo);
+    }
+
+    @bottom-left {
+        content: element(footer-page);
+    }
+
+}
+
+.header {
+    position: running(header-logo);
+    margin-top: 0.3cm;
+
+    font-size: 16px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    position: running(footer-page);
+    display: block;
+    margin-bottom: 0.5cm;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px !important;
+}
+
+#pagenumber:before {
+    content: counter(page);
+}
+
+#pagecount:before {
+    content: counter(pages);
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+hr.space {
+    background: #fff none repeat scroll 0 0;
+    color: #fff;
+    visibility: hidden
+}
+
+hr {
+    background: #e5e7ed none repeat scroll 0 0;
+    border: medium none;
+    clear: both;
+    color: #ddd;
+    float: none;
+    height: 1px;
+    margin: 0 0 1.45em;
+    width: 100%;
+}
+
+.col {
+    float: left;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-3 {
+    width: 30%;
+}
+
+.col-md-7 {
+    width: 70%;
+}
+
+.text-right p {
+    text-align: right;
+    margin: 0;
+}
+
+.text-left p {
+    text-align: left;
+    margin: 0;
+}
+
+.text-justify p {
+    text-align: justify;
+    margin: 0;
+}
+
+.text-right .text-left .text-justify .pagina {
+    margin-top: 15px;
+}
+
+.rodape {
+    width: 640px;
+}
